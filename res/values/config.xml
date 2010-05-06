@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+
+    <!-- Tag Settings -->
+    <string-array name="mainoptions">
+        <item>Food</item>
+        <item>Sleep</item>
+        <item>Exercise</item>
+        <item>Other</item>
+    </string-array> 
+    
+    <string-array name="foodoptions">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Snack</item>
+        <item>Water</item>
+    </string-array> 
+    
+	<string-array name="sleepoptions">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Snack</item>
+        <item>Water</item>
+    </string-array> 
+    
+    <string-array name="exerciseoptions">
+        <item>Running</item>
+        <item>Biking</item>
+        <item>Weights</item>
+    </string-array> 
+    
+    <string-array name="choosemain">
+        <item>Choose Main First</item>
+    </string-array> 
+    
+</resources>
