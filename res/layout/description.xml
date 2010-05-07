@@ -11,19 +11,16 @@
 	   <EditText
 			android:id="@+id/description"
 			android:layout_width="fill_parent"
-			android:layout_height="wrap_content" 
-			android:lines="8"
-			android:layout_marginBottom="45px" />
+			android:layout_height="wrap_content"
+			android:layout_weight="1" 
+			android:gravity="top" />
 
 		<TimePicker 
 			android:layout_height="wrap_content" 
 			android:layout_width="fill_parent" 
-			android:id="@+id/time" 
-			android:layout_above="@+id/submit" />
-		
+			android:id="@+id/time" />
 		
 		<Button 
-			android:layout_alignParentBottom="true" 
 			android:text="Finish" 
 			android:id="@+id/submit" 
 			android:layout_width="fill_parent" 

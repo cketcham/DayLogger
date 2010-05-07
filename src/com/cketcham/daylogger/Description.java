@@ -38,7 +38,7 @@ public class Description extends Activity {
 				log.sub = getIntent().getStringExtra("sub");
 				log.description = ((EditText) findViewById(R.id.description)).getText().toString();
 				log.time = new Date(time.getYear(), time.getMonth(), time.getDay(),timepicker.getCurrentHour(),timepicker.getCurrentMinute(),time.getSeconds()).getTime();
-				//log.put();
+				log.put();
 				setResult(Activity.RESULT_OK);
 				finish();
 			}

@@ -18,7 +18,7 @@ public class ListSelectActivity extends ListActivity {
 
 		categories = categories();
 
-		setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_multiple_choice, categories));
+		setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, categories));
 
 		final ListView listView = getListView();
 
