@@ -16,7 +16,7 @@ public class MainCatChooser extends ListSelectActivity {
 
 	@Override
 	protected String[] categories() {
-		return new String[]{"Food", "Sleep", "Exercise", "Other"};
+		return new String[]{"Food", "Sleep", "Exercise", "Personal", "Other"};
 	}
 
 	@Override

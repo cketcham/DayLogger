@@ -20,7 +20,7 @@ public class SubCatChooser extends ListSelectActivity {
 		switch(getIntent().getIntExtra("position",-1)) {
 			case 0: return new String[]{"Breakfast", "Lunch", "Dinner", "Snack", "Water"};
 			case 1: return new String[]{"Wake", "Sleep"};
-			case 2: return new String[]{"10 mins", "20 mins", "30 mins", "60 mins", "90 mins"};
+			case 2: return new String[]{"10 mins", "20 mins", "30 mins", "60 mins", "90 mins", "weight"};
 		}
 
 		return new String[]{};
