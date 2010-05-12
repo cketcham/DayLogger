@@ -32,7 +32,7 @@ public class Description extends Activity {
 		Button next = (Button) findViewById(R.id.submit);
 		next.setOnClickListener(new OnClickListener() {
 
-			@Override
+
 			public void onClick(View v) {
 				log.main = getIntent().getStringExtra("main");
 				log.sub = getIntent().getStringExtra("sub");

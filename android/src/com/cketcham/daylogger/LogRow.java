@@ -2,7 +2,7 @@ package com.cketcham.daylogger;
 
 import android.content.Context;
 
-import com.cketcham.database.Row;
+import edu.ucla.cens.database.Row;
 
 public class LogRow extends Row {
 	public LogRow(Context context) {
